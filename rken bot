@@ -1,0 +1,32 @@
+Server ready at http://localhost:50419/
+Server commands: [b]rowser, [q]uit
+server> /*
+Server commands: [b]rowser, [q]uit
+server>     Copyright (c) 2023 Pocketz World. All rights reserved.
+Server commands: [b]rowser, [q]uit
+server> */
+Server commands: [b]rowser, [q]uit
+server>
+Server commands: [b]rowser, [q]uit
+server> using Highrise.API;
+Server commands: [b]rowser, [q]uit
+server> using Highrise.API.Modules;
+Server commands: [b]rowser, [q]uit
+server> using System.Text.Json.Serialization;
+Server commands: [b]rowser, [q]uit
+server>
+Server commands: [b]rowser, [q]uit
+server> SyncTimeEvent.Register();
+Server commands: [b]rowser, [q]uit
+server>
+Server commands: [b]rowser, [q]uit
+server> var bot = new Bot(
+Server commands: [b]rowser, [q]uit
+server>     "wss://highrise.game/web/webapi",
+Server commands: [b]rowser, [q]uit
+server>     <64269ba4a97f57c7b97c1c45>,
+Server commands: [b]rowser, [q]uit
+server>     <2f0ebfb56e988a8e9eb34a2a6d361ebb3289c94267b31997af4315344a766e27>);
+
+Server commands: [b]rowser, [q]uit
+server>
